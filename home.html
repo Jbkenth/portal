@@ -96,7 +96,7 @@
         </form>
         <br>
         <form action="">
-            <center><button class="button">Student</button></center>
+            <center><button onclick="c()" id="f" class="button">Student</button></center>
         </form>
         <br>
         <form action="">
@@ -107,5 +107,13 @@
             <center><button class="button">Admission</button></center>
         </form>
         <br>
+        <script>
+            function c(){
+                let a = document.getElementById('f');
+                if (!a.clicked == true){
+                    alert('Not available for now!!');
+            }
+            }
+        </script>
     </body>
 </html>
