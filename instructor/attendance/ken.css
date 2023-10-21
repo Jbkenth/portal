@@ -1,0 +1,42 @@
+body{
+  background: lightblue;
+}
+td{
+  border: 1px solid black;
+  text-align: center;
+}
+.n{
+  background: lightgrey;
+}
+.a{
+  background: red;
+  color: white;
+}
+.p{
+  background: lightgreen;
+}
+.t{
+  background: yellow;
+}
+.at{
+  text-align: center;
+}
+.up{
+  background: #964B00;
+  color: #fff;
+}
+.up select{
+  background: #964B00;
+  border: none;
+  color: white;
+}
+.c{
+  background: tan;
+}
+.radio{
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  margin-bottom:5px;
+}
+

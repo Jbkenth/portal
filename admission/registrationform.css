@@ -1,0 +1,306 @@
+body{
+    background: tan;
+}
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+h4{
+  text-align: center;
+}
+h6{
+    font-family: 'Courier New', Courier, monospace;
+    background: #964B00;
+    border: 1px solid #964B00;
+    width: auto;
+    height: auto;
+    margin-top: -5px;
+    font-size: 23px;
+    color: white;
+    text-align: center;
+}
+img{
+    margin-bottom: 8px;
+}
+td{
+  border: 1px solid black;
+  background: white;
+  color: black;
+}
+table{
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  border-bottom: 2px solid black;
+  font-weight: bold;
+}
+.inp{
+  width:60px;
+}
+.hr{
+  border: 1px solid black;
+}
+canvas{
+  border: 1px solid black;
+  width: 150px;
+  height: 150px;
+}
+.table{
+  box-shadow: 0 0 2px 2px #000;
+  padding: 5px;
+  background: white;
+}
+.course1{
+  border: 1px solid black;
+  color: black;
+  font-weight: bold;
+  width: 130px;
+  padding: 3px;
+}
+.course select{
+  border: 1px solid black;
+  background: white;
+  margin-left: -6px;
+  padding: 3px;
+}
+.idnumber1{
+  margin-top:2px;
+  border: 1px solid black;
+  color: black;
+  font-weight: bold;
+  width: 130px;
+  padding: 3px;
+}
+.idnumber2{
+  border:1px solid black;
+  margin-left: -6px;
+  padding: 3px;
+}
+.date{
+  float: right;
+  border: none;
+  color: black;
+  font-weight: bold;
+  width: 40px;
+}
+.date1{
+  float: right;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid black;
+}
+.st_type1{
+  margin-top: 3px;
+  margin-left: 110px;
+}
+.st_type1 input{
+  width: 20px;
+  height: 20px;
+}
+.lrn{
+  margin-top:-36px;
+  margin-left: 210px;
+}
+.lrn input{
+  border: 1px solid black;
+  width: 188px;
+  padding: 2px;
+}
+.lastname{
+  margin-top:2px;
+}
+.lastname input{
+  width: 345px;
+  border: 1px solid black;
+  padding: 2px;
+  margin-left:18px;
+}
+.firstname{
+  margin-top:2px;
+}
+.firstname input{
+  border: 1px solid black;
+  margin-left: 16px;
+  width: 345px;
+  padding: 2px;
+}
+.middlename{
+  margin-top: 2px;
+}
+.middlename input{
+  border: 1px solid black;
+  padding: 2px;
+  margin-left: -1px;
+  width: 200px;
+}
+.suffix{
+  margin-top: -22px;
+  margin-left: 346px;
+}
+.suffix select{
+  border: 1px solid black;
+  padding: 2px;
+  background: white;
+}
+.pi select{
+  border: 1px solid black;
+  background: white;
+  text-align: center;
+  padding: 2px;
+}
+.pi input{
+  border: 1px solid black;
+  text-align: center;
+  width: 80px;
+  padding: 2px;
+}
+.label{
+  margin-top: -3px;
+}
+.label1{
+  margin-left: 150px;
+  font-size: 15px;
+}
+.label2{
+  margin-left: 39px;
+  font-size: 15px;
+}
+.label3{
+  margin-left: 44px;
+  font-size: 15px;
+}
+.button  input{
+    font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+  border: 1px solid #964B00;
+  border-radius: 5px;
+  padding: 7px;
+  background: #964B00;
+  color: #FFF;
+  font-weight: bold;
+}
+.check{
+  margin-top: -45px;
+}
+input[type="file"] {
+   display: none;
+}
+.custom-file-upload {
+    
+    box-shadow: 0 0 1px 1px black;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+.pic{
+  float: right;
+  margin-top: -200px;
+}
+.pic img {
+    width: 51mm;
+    height: 51mm;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.pic2{
+  margin-top: -23px;
+  margin-left: 42px;
+}
+.photo{
+  margin-top: 10px;
+  margin-left: -35px;
+}
+.pob{
+  float: right;
+}
+.pob input{
+  text-align: left;
+  width: 300px;
+  padding: 3px;
+}
+.pob1{
+    margin-left: 190px;
+}
+.age input{
+    width: 50px;
+    padding: 2px;
+}
+.nationality{
+    text-align: center;
+    padding: 2px;
+}
+.civil{
+  margin-top: 3px;
+}
+.civil input{
+    width: 20px;
+    height: 20px;
+}
+.gender{
+    margin-left: 40px;
+}
+.check2{
+  margin-top: 3px;
+}
+.religion2{
+  margin-left: 100px;
+}
+.religion input[type="tel"]{
+  padding: 2px;
+  width: 150px;
+}
+.religion input[type="text"]{
+  padding: 2px;
+  width: 120px;
+}
+.ea{
+  margin-top: 3px;
+}
+.ea input[type="email"]{
+  padding: 2px;
+  text-align: left;
+  width: 240px;
+}
+.pa{
+  margin-top: 3px;
+}
+.pa input[type="text"]{
+  width: 300px;
+  padding: 2px;
+  text-align: left;
+}
+.pa input[type="number"]{
+  padding: 2px;
+  width: 70px;
+}
+.tables{
+  margin-top: 3px;
+}
+.tables table{
+  border: 1px solid black;
+}
+.td{
+  text-align: center;
+  width: 200px;
+}
+.td2{
+  padding: 2px;
+  text-align: center;
+  width: 50px;
+}
+.td3{
+  text-align: center;
+  width: 200px;
+}
+.td4{
+  text-align: center;
+  width: 100px;
+}
+.td5{
+  text-align: center;
+  width: 110px;
+}

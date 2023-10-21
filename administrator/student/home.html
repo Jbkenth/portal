@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <title>Saint Francis College Guihulngan</title>
+    </head>
+    <script>
+        document.onkeydown = function(e) {
+    if(e.keyCode == 123) {
+     return false;
+    }
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+     return false;
+    }
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+     return false;
+    }
+    if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+     return false;
+    }
+
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)){
+     return false;
+    }      
+ }
+    </script>
+    <style>
+        body{
+           background-color: tan;
+        }
+        h1{
+            font-size: 25px;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        h2{
+            text-align: center;
+            font-style: italic;
+            font-size: 17px;
+            
+        }
+        .button 
+        {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        text-align: center;
+        cursor: pointer;
+        color: #fff;
+        background-color: #964B00;
+        border-radius: 20px;
+        box-shadow: 0 8px gray;
+        }
+
+        .button:hover {background-color: #964B00}
+
+        .button:active {
+        background-color: #964B00;
+        box-shadow: 0 5px rgb(25, 25, 25);
+        transform: translateY(5px);
+        }
+        button{
+            margin-top: -7px;
+            width: 250px;
+            height: 45px;
+        }
+        .glow {
+  color: black;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px #964B00, 0 0 40px #964B00, 0 0 50px #964B00, 0 0 60px #964B00, 0 0 70px #964B00;
+  }
+  
+  to {
+    text-shadow: 0 0 20px white, 0 0 30px #964B00, 0 0 40px #964B00, 0 0 50px #964B00, 0 0 60px #964B00, 0 0 70px white, 0 0 80px white;
+  }
+}
+    </style>
+    <body oncontextmenu="return false">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <center><img src="SFC-G.png" width="150px"height="150px"/></center>
+        <h1 class="glow">Saint Francis College Guihulngan,<br>Negros Oriental, Incorporated</h1>
+        <h2>Bateria, Guihulngan City, Negros Oriental</h2>
+        <br>
+        <form action="1yearcollege/home.html">
+            <center><button class="button">1st Year College</button></center>
+        </form>
+        <br><br>
+        <form action="">
+            <center><button class="button">2nd Year College</button></center>
+        </form>
+        <br><br>
+        <form action="">
+            <center><button class="button">3rd Year College</button></center>
+        </form>
+        <br><br>
+        <form action="">
+            <center><button class="button">4th Year College</button></center>
+        </form>
+        <br><br>
+    </body>
+</html>
