@@ -79,11 +79,11 @@
         <h2>Bateria, Guihulngan City, Negros Oriental</h2>
         <br>
         <form action="">
-            <center><button onclick="c()" id="f4" class="button">Administrator</button></center>
+            <center><button onclick="c4()" id="f4" class="button">Administrator</button></center>
         </form>
         <br>
         <form action="">
-            <center><button onclick="c()" id="f3" class="button">Instructor</button></center>
+            <center><button onclick="c3()" id="f3" class="button">Instructor</button></center>
         </form>
         <br>
         <form action="">
@@ -91,37 +91,62 @@
         </form>
         <br>
         <form action="">
-            <center><button onclick="c()" id="f1" class="button">Parent</button></center>
+            <center><button onclick="c1()" id="f1" class="button">Parent</button></center>
         </form>
         <br>
         <form action="">
-            <center><button  onclick="c()" id="f2" class="button">Admission</button></center>
+            <center><button  onclick="c2()" id="f2" class="button">Admission</button></center>
         </form>
         <br>
         <script>
             function c(){
                 let a = document.getElementById('f');
-                let b = document.getElementById('f1');
-                let c = document.getElementById('f2');
-                let d = document.getElementById('f3');
-                let e = document.getElementById('f4');
-
+                
                 if (!a.clicked == true){
                     alert('Not available for now!!');
+                }
             }
+
+            function c1(){
+                
+                let b = document.getElementById('f1');
+               
+                
                 if (!b.clicked == true){
                     alert('Not available for now!!');
             }
+                
+                
+            }
+            function c2(){
+                let c = document.getElementById('f2');
+            
+                
                 if (!c.clicked == true){
                     alert('Not available for now!!');
             }
+                
+            }
+
+function c3(){
+                 let d = document.getElementById('f3');
+                
+        
                 if (!d.clicked == true){
                     alert('Not available for now!!');
             }
+            }
+            function c4(){
+                let e = document.getElementById('f4');
+
+                
                 if (!e.clicked == true){
                     alert('Not available for now!!');
             }
             }
+
+
+
         </script>
     </body>
 </html>
