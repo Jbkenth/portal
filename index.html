@@ -27,6 +27,7 @@
             border-image-width: 5px;
             border-image-repeat: round;
             animation: snakeLightning 3s linear infinite;
+            text-align: center;
         }
 
         @keyframes gradientBG {
@@ -52,6 +53,7 @@
 </head>
 <body>
     <div class="clock" id="clock"></div>
+    <div class="clock" id="date"></div>
 
     <script>
         function updateClock() {
@@ -61,9 +63,12 @@
             let seconds = now.getSeconds().toString().padStart(2, '0');
             let ampm = now.getHours() >= 12 ? 'PM' : 'AM';
             document.getElementById('clock').textContent = `${hours}:${minutes}:${seconds} ${ampm}`;
+
+            const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+            document.getElementById('date').textContent = now.toLocaleDateString(undefined, options);
         }
         setInterval(updateClock, 1000);
-        updateClock(); // initial call to set the clock immediately
+        updateClock(); // initial call to set the clock and date immediately
     </script>
 </body>
 </html>
