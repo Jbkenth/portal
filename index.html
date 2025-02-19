@@ -19,14 +19,34 @@
             padding: 20px 40px;
             border-radius: 15px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
             animation: gradientBG 6s ease infinite;
+            border: 5px solid transparent;
+            border-image-source: linear-gradient(45deg, #ff00ff, #00ffff, #ff00ff);
+            border-image-slice: 1;
+            border-image-width: 5px;
+            border-image-repeat: round;
+            animation: snakeLightning 3s linear infinite;
         }
+
         @keyframes gradientBG {
             0% { background: #6a11cb; }
             25% { background: #2575fc; }
             50% { background: #6a11cb; }
             75% { background: #2575fc; }
             100% { background: #6a11cb; }
+        }
+
+        @keyframes snakeLightning {
+            0% {
+                border-image-source: linear-gradient(45deg, #ff00ff, #00ffff, #ff00ff);
+            }
+            50% {
+                border-image-source: linear-gradient(45deg, #00ffff, #ff00ff, #00ffff);
+            }
+            100% {
+                border-image-source: linear-gradient(45deg, #ff00ff, #00ffff, #ff00ff);
+            }
         }
     </style>
 </head>
